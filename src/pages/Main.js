@@ -5,7 +5,9 @@ import MovieSearch from "../component/MovieSearch";
 function Main(){
     return(
         <>
+        <div className="wrap">
             <MovieList />
+        </div>
         </>
     );
 }

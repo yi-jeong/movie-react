@@ -1,2 +1,25 @@
 @charset "utf-8";
 
+body{ background:#f8f8f8; }
+p{ margin:0; }
+
+.wrap{ letter-spacing:-1px; }
+
+.moviesearch{ padding:1em 0; }
+.moviesearch p{ text-align: center; }
+.moviesearch input{ 
+    padding:5px 10px;
+    border-top:none; 
+    border-left:none;
+    border-right:none;
+    border-color:#ddd;
+}
+.movielist .movielist-box { margin:1em 0; }
+.movielist .movielist-box figure{ 
+    height:100%;
+    background:#fff; 
+    border-radius: 0;
+    box-shadow: 0 4px 11px 0 rgb(0 0 0 / 7%); 
+}
+.movielist .movielist-box figure figcaption{ padding:1em; }
+.movielist .movielist-box figure figcaption h6{ font-weight:bold; }
